@@ -10,7 +10,6 @@ import {
   serverTimestamp,
   query,
   orderBy,
-  where,
 } from "firebase/firestore";
 
 const normalizeStatus = (status) => {
