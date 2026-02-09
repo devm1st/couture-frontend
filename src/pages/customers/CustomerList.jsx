@@ -60,7 +60,7 @@ const CustomerList = () => {
       {loading ? (
         <Loader />
       ) : (
-        <div className="glass rounded-2xl border-white/10 overflow-hidden shadow-[0_25px_70px_rgba(0,0,0,0.45)]">
+        <div className="glass rounded-2xl border-white/10 w-full overflow-x-auto shadow-[0_25px_70px_rgba(0,0,0,0.45)]">
           <table className="w-full text-sm">
             <thead className="bg-white/5">
               <tr className="text-left text-white/65">
